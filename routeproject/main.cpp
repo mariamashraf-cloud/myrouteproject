@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
+int mul(int x, int y){
+    return x*y;
+}
 
 int main(){
-    cout << "Hello world!" << endl;
 
-    cout<<"Hello MARIAM!"<<endl;
+    cout<<mul(2,5);
 
 }
